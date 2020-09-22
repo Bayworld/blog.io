@@ -1,0 +1,22 @@
+
+/* font-family:abel */
+@font-face
+{
+    font-family: abel;
+    src: url('./fa-regular-400.ttf');
+}
+
+/* font-family:Anton */
+@font-face
+{
+    font-family: Anton;
+    src: url('./fa-regular-400.ttf');
+}
+
+
+/* font-family:Josefin */
+@font-face
+{
+    font-family: Josefin;
+    src: url('./fa-regular-400.ttf');
+}
