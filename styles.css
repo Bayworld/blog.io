@@ -55,6 +55,13 @@ h3{
     font-family: 'Abel', sans-serif;
     font-size: 1.3rem;
 }
+
+h4
+{
+    font-size: 1.5rem;
+    padding: 5%;
+    background-color: wheat;
+}
 button.btn
 {
     border: none;
@@ -206,44 +213,6 @@ main .site-title .btn:hover
 
 /*-----x---------Site Title-----------x---------*/
 /*---------------Blog Carousel----------------*/
-main .blog
-{
-    background: url(./abstract02.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
-    background: size 65%;
-    height: 100vh;
-    width: 100%;
-}
-
-main .blog .blog-post
-{
-    padding-top: 6rem;
-}
-
-main .blog-post .blog-content
-{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 80%;
-    margin: 3rem 2rem;
-    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
-}
-
-main .blog-content .blog-title
-{
-    padding: 2rem 0;
-}
-main .blog-content .btn-blog
-{
-    padding: .7rem 2rem;
-    background: var(--sky);
-    margin: 5rem;
-}
-
-
-
 
 /*-------x--------Blog Carousel----------x------*/
 
@@ -267,11 +236,30 @@ main.site-content
     .nav .nav-menu, .nav .nav-items
     {
         flex-direction: column;
+        background-color: transparent;
+        color: white;
+        font-weight: bold;
+        
     }
     .nav .toggle-collapse
     {
         display: initial;
     }
+    .nav
+    {
+        background: url(./background.jpg);
+    }
+
+    ul .nav-link a{
+        color: white;
+        font-size: 25px;
+    }
+
+    nav .nav-brand a
+    {
+        color: wheat;
+    }
+    
 }
 
 /*     x   viewport less than or equal to 750px    x   */
