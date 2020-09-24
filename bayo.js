@@ -1,12 +1,10 @@
-$(document).ready(function(){
-
-$nav = $(".nav");
-$toggleCollapse = $(".toggle-collapse");
-
-/*Click event on toggle menu */
-$toggleCollapse.click(function () {
-    $nav.toggleClass("collapse");
-})
-
-
-});
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  
